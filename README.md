@@ -56,10 +56,10 @@ These instructions will get you a copy of the project up and running on your loc
         *   `20262` for Summer 2026
 
 2.  **Edit `main.py`:**
-    Open the `main.py` file in the `src` directory. Update the `class_ids` list with your desired class identifiers and set the `CALENDAR_CODE` for the correct semester.
+    Open the `main.py` file. Update the `class_ids` list with your desired class identifiers and set the `CALENDAR_CODE` for the correct semester.
 
     ```python
-    # src/main.py
+    # main.py
     class_ids = [
         'YOUR_CLASS_ID_1', # e.g., 'ECBM4040E001'
         # Add more class IDs as needed
@@ -70,7 +70,7 @@ These instructions will get you a copy of the project up and running on your loc
 3.  **Run the script:**
     From the project root directory, execute:
     ```bash
-    python src/main.py
+    python main.py
     ```
 
     A `vergil.ics` file will be generated in the `output/` directory at the project root.
